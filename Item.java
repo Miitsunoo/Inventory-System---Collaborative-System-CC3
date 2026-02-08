@@ -1,11 +1,11 @@
 public class Item {
-    private String name;
+    private String itemname;
 
-    public Item(String name){ /* constructor */
-        this.name = name;
+    public Item(String itemname){ /* constructor */
+        this.itemname = itemname;
     }
 
     public String identityOfItem(){
-        return "This is the Item Class.";
+        return itemname;
     }
 }

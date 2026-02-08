@@ -1,7 +1,8 @@
 public class Inventory {
+    private Item item;
     private String name;
 
-    public Inventory(String name){
+    public Inventory(String name) {
         this.name = name;
     }
 
@@ -9,9 +10,7 @@ public class Inventory {
         this.item = item;
     }
 
-    public String InventoryID() {
-        return "This is the inventory.";
+    public String identityOfInventory() {
+        return name + " it contains: " + item.identityOfItem();
     }
-
-    
 }

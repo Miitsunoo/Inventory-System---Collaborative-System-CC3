@@ -4,14 +4,14 @@ public class Player {
 
     public Player(String username) { 
         this.username = username;
-        this.inventory = new Inventory("THIS IS THE PLAYER INVENTORY");
+        this.inventory = new Inventory("This is the player's Inventory,");
     }
 
     public Inventory getInventory() {
         return inventory;
     }
 
-    public String identity() {
-        return "I am the Player class. I represent the player in the game!!.";
+    public String identityOfPlayer() {
+        return "This is Player class. The player's name is: " + username;
     }
 }

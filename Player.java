@@ -4,7 +4,7 @@ public class Player {
 
     public Player(String username) { 
         this.username = username;
-        this.inventory = new Inventory(3);
+        this.inventory = new Inventory ("THIS IS THE PLAYER INVENTORY.");
     }
 
     public Inventory getInventory() {
@@ -12,6 +12,6 @@ public class Player {
     }
 
     public String identity() {
-        return "I am the Player class. I represent the player in the game.";
+        return "I am the Player class. I represent the player in the game!!.";
     }
 }
